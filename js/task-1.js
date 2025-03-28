@@ -1,8 +1,9 @@
 const customer = {
-  username: 'Mango',
+  username: "Mango",
   balance: 24000,
   discount: 0.1,
-  orders: ['Burger', 'Pizza', 'Salad'],
+  orders: ["Burger", "Pizza", "Salad"],
+
   getBalance() {
     return this.balance;
   },
@@ -23,6 +24,6 @@ const customer = {
 
 customer.setDiscount(0.15);
 console.log(customer.getDiscount());
-customer.addOrder(5000, 'Steak');
+customer.addOrder(5000, "Steak");
 console.log(customer.getBalance());
 console.log(customer.getOrders());
